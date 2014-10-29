@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Untitled Document</title>
 <link href="jquery-mobie1.4/piccadilly.css" rel="stylesheet" type="text/css">
 <link href="jquery-mobie1.4/jquery.mobile.structure-1.4.4.min.css" rel="stylesheet" type="text/css">
@@ -15,20 +16,20 @@
     <h2>Menu</h2>
     <ul data-role="listview" data-inset="true">
       <p>
-      <li><a href="#tasting"><img src="images/elderly_couple_small.jpg" >
+      <li><a href="#pageAbout"><img src="images/elderly_couple_small.jpg" >
         <h2>About</h2>
         <p>Who we are</p>
-        </a></li>
+</a></li>
          <ul data-role="listview" data-inset="true">
       <p>
-      <li><a href="#tasting"><img  src="images/golfSwing_small.jpg" >
+      <li><a href="#pageContact"><img  src="images/golfSwing_small.jpg" >
         <h2>Contact</h2>
         
         </a></li>
         </ul>
       </p>
   </div>
-  <div data-role="header">
+<div data-role="header">
    
     <p><img src="images/Girl_painting.jpg" width="100%"></p>
     </div>
@@ -46,5 +47,53 @@
     <h4>Footer</h4>
   </div>
 </div>
+<div data-role="page" id="pageAbout">
+  <div data-role="header">
+    <h1></h1>
+  </div>
+  <div data-role="content"><img src="images/elderly_couple_computing.jpg" width="100%"></div>
+  
+  <div data-role="navbar"> 
+  <ul>
+  	<li><a href="#page">Home</a></li>
+    <li><a href="#pageContact">Contact</a></li>
+  </ul>
+  </div>
+  <div>
+  <p>Although the phrase is nonsense, it does have a long history. The phrase has been used for several centuries by typographers to show the most distinctive features of their fonts.</p>
+
+<p>It is used because the letters involved and the letter spacing in those combinations reveal, at their best, the weight, design, and other important features of the typeface.</p>
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+
+<div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+<div data-role="page" id="pageContact">
+  <div data-role="header">
+    <h1></h1>
+  </div>
+  <div data-role="content"><img src="images/golf_swing.jpg" width="100%">
+  </div>
+  <div data-role="navbar"> 
+  <ul>
+  	<li><a href="#page">Home</a></li>
+    <li><a href="#pageAbout">About</a></li>
+  </ul>
+  </div>
+  <div>
+  <p>Although the phrase is nonsense, it does have a long history. The phrase has been used for several centuries by typographers to show the most distinctive features of their fonts.</p>
+
+<p>It is used because the letters involved and the letter spacing in those combinations reveal, at their best, the weight, design, and other important features of the typeface.</p>
+  </div>
+  <div data-role="footer">
+    <h4>Footer</h4>
+  </div>
+</div>
+
 </body>
 </html>
